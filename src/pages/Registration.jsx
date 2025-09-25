@@ -66,6 +66,7 @@ const Registration = () => {
             className="text-gray-500 text-lg">
            Already have an account?{" "} <Link to="/login" className="text-white">Log In</Link></p> 
         </div>
+        
     </div>
     )
 }
@@ -102,7 +103,7 @@ const Registration = () => {
                   className="bg-[#4a006f] font-bold text-white text-[1.3rem] px-4 py-2 mt-12 m-auto rounded-lg w-56 hover:bg-white hover:text-pink-700 transition-all ease-in-out duration-300 cursor-pointer"
                   type="submit"
                 >
-                Submit
+                Sign In
                 </button>
             </form>
           
