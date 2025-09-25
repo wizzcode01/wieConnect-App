@@ -2,8 +2,8 @@ import { Link } from "react-router-dom"
 
 const Home = () => {
     return (
-       <div className="text-center  m-auto">
-         <Link to="/login" className=" text-4xl">check wieConnect Login</Link>
+       <div className="text-center mt-20">
+         <Link to="/login" className=" text-4xl">wieConnect Login/Registration testing</Link>
        </div>   
     )
 }
