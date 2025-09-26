@@ -23,7 +23,7 @@ const Registration = () => {
                  onClick={() => setStep(1)}
                 ><FaArrowLeft size={20}/></h1>  */}
                 <h1 className="text-3xl m-5 font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent"> Sign Up - wieConnect</h1>
-                <p className="text-sm m-5 text-gray-500 font-bold ">SignUp With any of The Following</p>
+                <p className="text-sm m-5 text-gray-400 font-bold ">SignUp With any of The Following</p>
             </div>    
           
         <div className="flex flex-col items-center w-[95%] max-w-md bg-gray-900 px-8 py-10 ">
@@ -53,7 +53,7 @@ const Registration = () => {
                 </div>
                 <button
                   onClick={handleFirstSubmit}
-                  className="bg-[#4a006f] font-bold text-white text-[1.5rem] px-4 py-2 mt-12 m-auto rounded-lg w-56 hover:bg-white hover:text-pink-700 transition-all ease-in-out duration-300 cursor-pointer"
+                  className="bg-[#4a006f] font-bold text-white text-[1.5rem] px-4 py-2 mt-12 m-auto rounded-lg w-56 hover:bg-white hover:text-[#4a006f] transition-all ease-in-out duration-300 cursor-pointer"
                   type="submit"
                 >
                 <FaArrowRight size={30} className="text-center m-auto"/>
@@ -61,9 +61,9 @@ const Registration = () => {
             </form>
         </div>
 
-        <div className="flex flex-col justify-center items-center gap-3 p-5">
+        <div className="flex flex-col justify-center items-center gap-3 p-3">
            <p
-            className="text-gray-500 text-lg">
+            className="text-gray-500 text-sm">
            Already have an account?{" "} <Link to="/login" className="text-white">Log In</Link></p> 
         </div>
         
@@ -100,7 +100,7 @@ const Registration = () => {
                 </div>
                 <button
                   onClick={ handleSecondSubmit}
-                  className="bg-[#4a006f] font-bold text-white text-[1.3rem] px-4 py-2 mt-12 m-auto rounded-lg w-56 hover:bg-white hover:text-pink-700 transition-all ease-in-out duration-300 cursor-pointer"
+                  className="bg-[#4a006f] font-bold text-white text-[1.1rem] px-4 py-2 mt-12 m-auto rounded-lg w-56 hover:bg-white hover:text-[#4a006f] transition-all ease-in-out duration-300 cursor-pointer"
                   type="submit"
                 >
                 Sign In
@@ -109,9 +109,9 @@ const Registration = () => {
           
 
         </div>
-        <div className="flex flex-col justify-center items-center gap-3 mt-3 p-5">
+        <div className="flex flex-col justify-center items-center gap-3 mt-3 p-3">
            <p
-            className="text-gray-500 text-lg">
+            className="text-gray-500 text-sm">
            Already have an account?{" "} <Link to="/" className="text-white">Log In</Link></p> 
         </div>
     </div>
