@@ -23,10 +23,10 @@ const Registration = () => {
                  onClick={() => setStep(1)}
                 ><FaArrowLeft size={20}/></h1>  */}
                 <h1 className="text-3xl m-5 font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent"> Sign Up - wieConnect</h1>
-                <p className="text-sm m-5 text-gray-400 font-bold ">SignUp With any of The Following</p>
+                <p className="text-[16px] m-5 text-gray-400 font-bold ">SignUp With any of The Following</p>
             </div>    
           
-        <div className="flex flex-col items-center w-[95%] max-w-md bg-gray-900 px-8 py-10 ">
+        <div className="flex flex-col items-center w-full max-w-md bg-gray-900 px-8 py-10 ">
           <div className="flex justify-center items-center gap-5">
             <FaGoogle className=" bg-gray-900 cursor-pointer text-white border-2 rounded-lg border-[#701c9b] text-4xl w-28 p-2"/>
             <FaApple className="text-white cursor-pointer border-2 border-[#701c9b] rounded-lg bg-gray-900 text-4xl w-28 p-2"/>
@@ -38,22 +38,22 @@ const Registration = () => {
                         <input 
                         type="text"
                         name="names"
-                        placeholder="name"
-                        className="w-full border-b-2 text-gray-200 border-gray-200 focus:border-2 focus:border-white rounded-lg focus:outline-none px-3 py-2"
+                        placeholder="Name"
+                        className="w-full border text-gray-200 border-gray-200 focus:border-2 focus:border-white rounded-lg focus:outline-none px-3 py-4"
                         />
                     </div>  
                     <div>
                         <input 
                         type="text"
                         name="email"
-                        placeholder="email"
-                        className="w-full border-b-2 text-gray-200 border-gray-200 focus:border-2 focus:border-white rounded-lg focus:outline-none px-3 py-2"
+                        placeholder="Email"
+                        className="w-full border text-gray-200 border-gray-200 focus:border-2 focus:border-white rounded-lg focus:outline-none px-3 py-4"
                         />
                     </div>    
                 </div>
                 <button
                   onClick={handleFirstSubmit}
-                  className="bg-[#4a006f] font-bold text-white text-[1.5rem] px-4 py-2 mt-12 m-auto rounded-lg w-56 hover:bg-white hover:text-[#4a006f] transition-all ease-in-out duration-300 cursor-pointer"
+                  className="bg-[#4a006f] font-bold text-white text-[1.5rem] px-4 py-2 mt-5 m-auto rounded-4xl w-72 hover:bg-white hover:text-[#4a006f] transition-all ease-in-out duration-300 cursor-pointer"
                   type="submit"
                 >
                 <FaArrowRight size={30} className="text-center m-auto"/>
@@ -77,7 +77,7 @@ const Registration = () => {
             <div className="w-full flex gap-5 justify-center items-center ">
                 <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">WieConnect</h1>
             </div>    
-           <div className="flex flex-col items-center w-[95%] max-w-md bg-gray-900 px-8 py-10 ">
+           <div className="flex flex-col items-center w-full max-w-md bg-gray-900 px-8 py-10 ">
             <form 
             className="flex flex-col w-full mt-10 gap-2">
                 <div className="flex flex-col gap-6">
@@ -86,7 +86,7 @@ const Registration = () => {
                         type="text"
                         name="username"
                         placeholder="username"
-                        className="w-full border-b-2 text-gray-200 border-gray-200 focus:border-2 focus:border-white rounded-lg focus:outline-none px-3 py-2"
+                        className="w-full border text-gray-200 border-gray-200 focus:border-2 focus:border-white rounded-lg focus:outline-none px-3 py-4"
                         />
                     </div>    
                     <div>
@@ -94,13 +94,13 @@ const Registration = () => {
                         type="number"
                         name="password"
                         placeholder="password"
-                         className="w-full border-b-2 text-gray-200 border-gray-200 focus:border-2 focus:border-white rounded-lg focus:outline-none px-3 py-2"
+                         className="w-full border text-gray-200 border-gray-200 focus:border-2 focus:border-white rounded-lg focus:outline-none px-3 py-4"
                         />
                     </div>    
                 </div>
                 <button
                   onClick={ handleSecondSubmit}
-                  className="bg-[#4a006f] font-bold text-white text-[1.1rem] px-4 py-2 mt-12 m-auto rounded-lg w-56 hover:bg-white hover:text-[#4a006f] transition-all ease-in-out duration-300 cursor-pointer"
+                  className="bg-[#4a006f] font-bold text-white text-[1.1rem] px-4 py-2 mt-5 m-auto rounded-4xl w-72 hover:bg-white hover:text-[#4a006f] transition-all ease-in-out duration-300 cursor-pointer"
                   type="submit"
                 >
                 Sign In
