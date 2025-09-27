@@ -75,7 +75,7 @@ const Registration = () => {
     return (
          <div className="min-h-screen w-full relative flex flex-col items-center justify-center  bg-gray-900">
             <div className="w-full flex gap-5 justify-center items-center ">
-                <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Wie-Connect</h1>
+                <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">WieConnect</h1>
             </div>    
            <div className="flex flex-col items-center w-[95%] max-w-md bg-gray-900 px-8 py-10 ">
             <form 
